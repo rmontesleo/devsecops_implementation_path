@@ -1,5 +1,4 @@
-
-
+# Fundamentals of DevOps
 
 ## Resources 
 
