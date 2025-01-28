@@ -5,7 +5,7 @@ echo 'Install Development componentes for WSL2'
 echo 'This setup is to install and environment for DevSecOps'
 echo '########################################'
 echo
-echo-
+echo
 echo 'WARNING: This script works on  Ubuntu 22.04'
 echo 'press Enter to continue'
 read
