@@ -85,7 +85,7 @@ curl -o- "https://raw.githubusercontent.com/nvm-sh/nvm/${NVM_VERSION}/install.sh
 #nvm install --lts
 
 echo '########################################'
-echo 'Installing dotnet and DevSkim'
+echo 'Installing dotnet'
 echo '########################################'
 echo
 
@@ -93,7 +93,14 @@ sudo apt-get update &&   sudo apt-get install -y dotnet-sdk-8.0
 sudo apt-get update &&   sudo apt-get install -y aspnetcore-runtime-8.0
 sudo apt-get install -y dotnet-runtime-8.0
 
+
+
+echo '########################################'
+echo 'Installing DevSkim'
+echo '########################################'
+echo
 dotnet tool install --global Microsoft.CST.DevSkim.CLI --version 1.0.51
+
 
 
 echo '########################################'

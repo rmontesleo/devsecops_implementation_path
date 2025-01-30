@@ -8,6 +8,7 @@
 *.pem
 
 
+*.sarif
 
 
 # Local .terraform directories
